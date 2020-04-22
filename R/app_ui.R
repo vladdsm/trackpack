@@ -10,22 +10,7 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      
-      # App Title
-      h1("trackpack"),
-      # Sidebar with a slider input for number of bins
-      sidebarLayout(
-        sidebarPanel(
-          dateRangeInput("daterange4", "Date range:",
-                         start = Sys.Date()-10,
-                         end = Sys.Date()+10)
-        ),
-        
-        # Show a plot of the generated distribution
-        mainPanel(
-          plotOutput("distPlot")
-        )
-      )
+      h1("trackpack")
     )
   )
 }
