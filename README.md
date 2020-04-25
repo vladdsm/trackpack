@@ -7,9 +7,11 @@
 
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![Travis build
+status](https://travis-ci.com/vladdsm/trackpack.svg?branch=master)](https://travis-ci.com/vladdsm/trackpack)
 <!-- badges: end -->
 
-The goal of trackpack is to …
+The goal of trackpack is to track my package
 
 ## Installation
 
