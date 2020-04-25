@@ -20,4 +20,5 @@ RUN mkdir /build_zone
 ADD . /build_zone
 WORKDIR /build_zone
 RUN R -e 'remotes::install_local(upgrade="never")'
-CMD R -e "options('shiny.port'=$PORT,shiny.host='0.0.0.0');trackpack::run_app()"
+EXPOSE 3838
+CMD  ["R", "-e", "options('shiny.port'=3838,shiny.host='0.0.0.0');trackpack::run_app()"]
