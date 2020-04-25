@@ -10,7 +10,32 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("trackpack")
+      h1("trackpack"),
+      # here below will be our user interface
+      hr(),
+      
+      # Sidebar layout with input and output definitions ----
+      sidebarLayout(
+        
+        # Sidebar panel for inputs ----
+        sidebarPanel(
+          
+          # Input: Slider for the number of bins ----
+          # value is always yyyy-mm-dd, even if the display format is different
+          dateRangeInput("daterange4", "Date range:",
+                         start = Sys.Date()-10,
+                         end = Sys.Date()+10),
+          
+        ),
+        
+        # Main panel for displaying outputs ----
+        mainPanel(
+          
+          # Output: Histogram ----
+          plotOutput(outputId = "distPlot")
+          
+        )
+      )
     )
   )
 }
