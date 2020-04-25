@@ -11,7 +11,7 @@ app_server <- function( input, output, session ) {
     ## business logic code
     library(ggplot2)
     library(cranlogs)
-    stats <- cran_downloads("lazytrade", from = Sys.Date() - 100, to = Sys.Date() - 1) 
+    stats <- cran_downloads("lazytrade", from = input$daterange4[1], to = input$daterange4[2]) 
     #sum(stats$count)
     
     
