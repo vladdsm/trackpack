@@ -11,7 +11,7 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 status](https://travis-ci.com/vladdsm/trackpack.svg?branch=master)](https://travis-ci.com/vladdsm/trackpack)
 <!-- badges: end -->
 
-The goal of trackpack is to track my package
+The goal of trackpack is to track my package ‘lazytrade’
 
 ## Installation
 
