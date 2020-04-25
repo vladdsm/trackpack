@@ -53,7 +53,7 @@ ggplot(stats, aes(date, count)) +
       "{stats} downloads to %s", 
       Sys.Date() - 1
       ), 
-    caption = "data from {cranlogs}"
+    caption = "data from {cranlogs} about 'lazytrade' R package"
   ) + 
   theme_minimal()
 
