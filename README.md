@@ -9,7 +9,8 @@
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 <!-- badges: end -->
 
-The goal of trackpack is to …
+The goal of trackpack is to track the statistics of downloads of the
+lazytrade package.
 
 ## Installation
 
