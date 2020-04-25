@@ -18,6 +18,7 @@ test_that(
     skip_on_cran()
     skip_on_travis()
     skip_on_appveyor()
+    skip_on_os('linux')
     x <- processx::process$new(
       "R", 
       c(
