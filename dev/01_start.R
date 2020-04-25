@@ -16,7 +16,7 @@
 golem::fill_desc(
   pkg_name = "trackpack", # The Name of the package containing the App 
   pkg_title = "Shiny App to track Downloads of my own Package", # The Title of the package containing the App 
-  pkg_description = "Application downloads data from CRAN. Application is visualizing the data to the user.
+  pkg_description = "Application downloads data from CRAN and visualizing the data to the user.
   User can select the time span of interest. Created exclusively for Educational Purposes.", # The Description of the package containing the App 
   author_first_name = "Vladimir", # Your First Name
   author_last_name = "Zhbanko", # Your Last Name
