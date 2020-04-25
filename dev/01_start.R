@@ -20,7 +20,7 @@ golem::fill_desc(
   User can select the time span of interest. Created exclusively for Educational Purposes.", # The Description of the package containing the App 
   author_first_name = "Vladimir", # Your First Name
   author_last_name = "Zhbanko", # Your Last Name
-  author_email = "Vladimir.Zhbanko@GMAIL.COM", # Your Email
+  author_email = "vladimir.zhbanko@gmail.com", # Your Email
   repo_url = NULL # The URL of the GitHub Repo (optional) 
 )     
 

@@ -1,7 +1,7 @@
 Package: trackpack
 Title: Shiny App to track Downloads of my own Package
 Version: 0.0.0.9000
-Authors@R: person('Vladimir', 'Zhbanko', email = 'Vladimir.Zhbanko@GMAIL.COM', role = c('cre', 'aut'))
+Authors@R: person('Vladimir', 'Zhbanko', email = 'vladimir.zhbanko@gmail.com', role = c('cre', 'aut'))
 Description: Application downloads data from CRAN and visualizing the data to the user.
   User can select the time span of interest. Created exclusively for Educational Purposes.
 License: MIT + file LICENSE
