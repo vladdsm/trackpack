@@ -18,7 +18,7 @@ app_server <- function( input, output, session ) {
       ggplot2::geom_col() + 
       ggplot2::labs(
         title = sprintf(
-          "{stats} downloads to %s", 
+          "{stats} downloads of Lazytrade R package to %s", 
           Sys.Date() - 1
         ), 
         caption = "data from {cranlogs}"
